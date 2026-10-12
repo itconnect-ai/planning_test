@@ -1,0 +1,9 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+.env*
+*.backup.json
+.vercel/
+*.tsbuildinfo
+프렙카페_백업_*.json

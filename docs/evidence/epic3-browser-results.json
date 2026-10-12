@@ -1,0 +1,915 @@
+{
+  "config": {
+    "argv": [
+      "D:\\dashboard_cafe\\node_modules\\node\\bin\\node.exe",
+      "D:\\dashboard_cafe\\node_modules\\@playwright\\test\\cli.js",
+      "test"
+    ],
+    "configFile": "D:\\dashboard_cafe\\playwright.config.ts",
+    "rootDir": "D:/dashboard_cafe/tests/browser",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/dashboard_cafe/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "D:/dashboard_cafe/tests/browser",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 60000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "D:\\dashboard_cafe\\test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "name": "",
+        "testDir": "D:\\dashboard_cafe\\tests\\browser",
+        "snapshotDir": "D:\\dashboard_cafe\\tests\\browser",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 60000,
+        "use": {
+          "baseURL": "http://127.0.0.1:5173",
+          "viewport": {
+            "width": 1440,
+            "height": 1000
+          },
+          "channel": "msedge",
+          "headless": true,
+          "trace": "retain-on-failure",
+          "screenshot": "only-on-failure"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": ""
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "docs/evidence/epic3-browser-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "epic1.spec.ts",
+      "file": "epic1.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "S01~S05 실제 판매→수익성→손익→재고→재실행, 콘솔·외부전송 검사",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [
+                {
+                  "type": "initialLoadMs",
+                  "description": "1462"
+                },
+                {
+                  "type": "saveAndRenderMs",
+                  "description": "197"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4282,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T05:51:21.317Z",
+                  "annotations": [
+                    {
+                      "type": "initialLoadMs",
+                      "description": "1462"
+                    },
+                    {
+                      "type": "saveAndRenderMs",
+                      "description": "197"
+                    }
+                  ],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4a4524511fb205067744-f299dd584a790c165254",
+          "file": "epic1.spec.ts",
+          "line": 21,
+          "column": 1
+        },
+        {
+          "title": "필수 수수료·할인·중복·취소 오류가 확정 자료를 바꾸지 않음",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3032,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T05:51:25.875Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4a4524511fb205067744-09e76e8105c421d94704",
+          "file": "epic1.spec.ts",
+          "line": 143,
+          "column": 1
+        },
+        {
+          "title": "두 탭 충돌에서 입력 보존·저장 차단·새로 읽기 후 저장",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4050,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T05:51:28.916Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4a4524511fb205067744-038f040b4cf4c7f9fe7b",
+          "file": "epic1.spec.ts",
+          "line": 169,
+          "column": 1
+        },
+        {
+          "title": "1280px·좁은 화면 이동과 입력창 저장·취소 접근",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2057,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T05:51:32.974Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4a4524511fb205067744-3adec2ec49074aed9c77",
+          "file": "epic1.spec.ts",
+          "line": 198,
+          "column": 1
+        },
+        {
+          "title": "실제 IndexedDB 저장 실패 시 성공 표시 없음·입력 유지·재실행 보존",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 3071,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T05:51:35.040Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4a4524511fb205067744-585804c09fbd9de65b7c",
+          "file": "epic1.spec.ts",
+          "line": 225,
+          "column": 1
+        },
+        {
+          "title": "손상된 실제 저장 상태를 샘플로 덮어쓰지 않음",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 2710,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T05:51:38.120Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "4a4524511fb205067744-a1a1108bfab068640a85",
+          "file": "epic1.spec.ts",
+          "line": 252,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "epic2.spec.ts",
+      "file": "epic2.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "S06 판매 수량 수정→연관 계산→보존→삭제 취소/확정",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8987,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T05:51:40.850Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eadacfe28651d158b182-ab6aa6efca797d9337b7",
+          "file": "epic2.spec.ts",
+          "line": 63,
+          "column": 1
+        },
+        {
+          "title": "S07 비용 검증·중복 확인·ID별 수정·귀속월 이동·삭제·재실행",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 8746,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T05:51:49.845Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eadacfe28651d158b182-ed477150b851b8fdb2cf",
+          "file": "epic2.spec.ts",
+          "line": 133,
+          "column": 1
+        },
+        {
+          "title": "S08~S10 입고·폐기·실사·다음날 변화·중복 차단·재실행",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6843,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T05:51:58.599Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eadacfe28651d158b182-8cb71cab3ad1d9a99324",
+          "file": "epic2.spec.ts",
+          "line": 192,
+          "column": 1
+        },
+        {
+          "title": "S08~S10 취소·음수 재고 경고·단위 오류·실측 0",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5357,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T05:52:05.450Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eadacfe28651d158b182-cb899f44160a0d8d4193",
+          "file": "epic2.spec.ts",
+          "line": 256,
+          "column": 1
+        },
+        {
+          "title": "다른 탭의 비용 변경은 저장 차단, 입력 유지 후 재확인",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5141,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T05:52:10.814Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eadacfe28651d158b182-3d7269fde3ecde704115",
+          "file": "epic2.spec.ts",
+          "line": 285,
+          "column": 1
+        },
+        {
+          "title": "재고 저장 실패는 이전 잔량·입력 보존, 성공 알림 없음",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4444,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T05:52:15.963Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "eadacfe28651d158b182-c8eb61bbe6f78003bfe3",
+          "file": "epic2.spec.ts",
+          "line": 316,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "epic3.spec.ts",
+      "file": "epic3.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "S11 실제 양식 다운로드→작성→검사→확정→수익/손익/재고→재실행·반복 제외",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7769,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T05:52:20.977Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "94cdd1e97bfa87b4e1c5-da3fd18aff242138216e",
+          "file": "epic3.spec.ts",
+          "line": 89,
+          "column": 1
+        },
+        {
+          "title": "S12 비용 양식·가져오기→손익 연결·ID없는 반복 오류·동일ID 제외",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 4736,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T05:52:28.752Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "94cdd1e97bfa87b4e1c5-3343476a981d52f07c7f",
+          "file": "epic3.spec.ts",
+          "line": 157,
+          "column": 1
+        },
+        {
+          "title": "S11 오류 파일 전체 미반영·취소·쓰기 실패·입력파일 불변",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5913,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T05:52:33.496Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "94cdd1e97bfa87b4e1c5-561ce82c48536960236f",
+          "file": "epic3.spec.ts",
+          "line": 200,
+          "column": 1
+        },
+        {
+          "title": "S13~S14 실제 백업→판매/비용/재고 변경→전체 복원·확인란·취소·재실행",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 11529,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T05:52:39.416Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "94cdd1e97bfa87b4e1c5-9fadc5cd4013a94422a2",
+          "file": "epic3.spec.ts",
+          "line": 239,
+          "column": 1
+        },
+        {
+          "title": "S14 손상/미지원/빈 파일은 보존, 유효 빈 백업은 명시 확인 후 보존",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 7418,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T05:52:50.953Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "94cdd1e97bfa87b4e1c5-d488797a22dbc9f095c5",
+          "file": "epic3.spec.ts",
+          "line": 306,
+          "column": 1
+        },
+        {
+          "title": "S14 복원/가져오기 검사 후 다른 탭 변경은 차단, 복원 통지는 이전 입력 폐기",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 9007,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T05:52:58.380Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "94cdd1e97bfa87b4e1c5-ecee6930ac4936fec1f1",
+          "file": "epic3.spec.ts",
+          "line": 349,
+          "column": 1
+        },
+        {
+          "title": "S14 복원 쓰기 실패 시 전체 이전 상태 보존",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5174,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T05:53:07.394Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "94cdd1e97bfa87b4e1c5-06c05d6288635a3c36b4",
+          "file": "epic3.spec.ts",
+          "line": 394,
+          "column": 1
+        },
+        {
+          "title": "파일 한도·취소·처리 중 입력 차단·Worker 실패와 시간 초과 보존",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 6635,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T05:53:12.576Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "94cdd1e97bfa87b4e1c5-cb839ba2ccd6ba6815aa",
+          "file": "epic3.spec.ts",
+          "line": 418,
+          "column": 1
+        },
+        {
+          "title": "1만 행 검사와 기준 규모 백업·복원 3회 성능",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 120000,
+              "annotations": [
+                {
+                  "type": "performance-ms",
+                  "description": "{\"browser\":\"Edge\",\"rows\":10000,\"inspection\":[887,874,863],\"exports\":[528,470,469],\"restores\":[1369,825,1353]}"
+                }
+              ],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 14100,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T05:53:19.221Z",
+                  "annotations": [
+                    {
+                      "type": "performance-ms",
+                      "description": "{\"browser\":\"Edge\",\"rows\":10000,\"inspection\":[887,874,863],\"exports\":[528,470,469],\"restores\":[1369,825,1353]}"
+                    }
+                  ],
+                  "attachments": [
+                    {
+                      "name": "performance.json",
+                      "contentType": "application/json",
+                      "body": "eyJpbnNwZWN0aW9uIjpbODg3LDg3NCw4NjNdLCJleHBvcnRzIjpbNTI4LDQ3MCw0NjldLCJyZXN0b3JlcyI6WzEzNjksODI1LDEzNTNdfQ=="
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "94cdd1e97bfa87b4e1c5-e1828ef52fbc8a4c0325",
+          "file": "epic3.spec.ts",
+          "line": 485,
+          "column": 1
+        },
+        {
+          "title": "손상된 저장 상태에서 백업 복원으로 회복",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5246,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-12T05:53:33.329Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "94cdd1e97bfa87b4e1c5-9dba79a76b30c6bdc2b0",
+          "file": "epic3.spec.ts",
+          "line": 540,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-12T05:51:20.314Z",
+    "duration": 138603.64,
+    "expected": 22,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
