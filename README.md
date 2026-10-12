@@ -17,4 +17,4 @@ Node 22.x(22.12 이상)에서 `npm ci` 후 `npm run dev`를 실행하고 http://
 - `npm run build`: TypeScript 검사 및 배포용 정적 파일 생성
 - `npm run test:production`: `dist`와 Vercel용 보안 설정으로 Edge에서 실제 다운로드·가져오기·백업·복원을 3회 검사. PowerShell에서 `$env:PRODUCTION_BROWSER='chrome'`을 설정하면 Chrome으로 검사합니다. 검사 서버는 임시 포트를 사용하고 종료됩니다.
 
-브라우저 자동 검사는 별도 임시 프로필을 사용하므로 사용자 확인용 브라우저 기록을 바꾸지 않습니다. `vercel.json`에는 배포 파일 위치와 보안 응답 설정이 있습니다. GitHub 업로드·실제 Vercel 배포와 고정 운영 주소 검사는 별도 마무리 작업이며 이번 EPIC 개발·검수에 포함되지 않았습니다.
+브라우저 자동 검사는 별도 임시 프로필을 사용하므로 사용자 확인용 브라우저 기록을 바꾸지 않습니다. `vercel.json`에는 배포 파일 위치와 보안 응답 설정이 있습니다. 코드·문서·검사 결과는 [GitHub 저장소](https://github.com/itconnect-ai/planning_test)의 `main`에 보관했습니다. 실제 Vercel 배포와 고정 운영 주소 검사는 아직 수행하지 않았습니다.
